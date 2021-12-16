@@ -2,6 +2,7 @@ import NavBar from "./../componets/NavBar";
 import ItemCard from "../componets/ItemCard";
 import { Container, Row, Col } from "react-bootstrap-v5";
 import styles from '../styles/Store.module.css'
+import Marquee from "../componets/Marque";
 
 
 const Store = () => {
@@ -9,6 +10,7 @@ const Store = () => {
     <>
       <NavBar />
       <Container className={styles.container} >
+        <Marquee/>
         <Row className="justify-content-md-center">
           <Col xs={6} md={6} lg={4}>
             <ItemCard image={"flautas.jpeg"} details={"rico rico"} />

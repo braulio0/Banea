@@ -1,14 +1,14 @@
 import Marquee from "react-fast-marquee";
-import itemCard from "./ItemCard";
+import ItemCard from "./ItemCard";
 
-const Marquee = () => {
+const Marque = () => {
   return (
     <Marquee>
-      <itemCard image={'flautas.jpeg'} details={'rico rico'} />
-      <itemCard />
-      <itemCard />
-      <itemCard />
+      <ItemCard image={'flautas.jpeg'} details={'rico rico'} />
+      <ItemCard image={'pozole.jpeg'} details={'rico rico'}/>
+      <ItemCard image={'tacos.jpeg'} details={'rico rico'}/>
+      <ItemCard image={'Tamales.jpeg'} details={'rico rico'}/>
     </Marquee>
   );
 };
-export default Marquee;
+export default Marque;
