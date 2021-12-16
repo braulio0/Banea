@@ -17,14 +17,14 @@ const Store = () => {
           <Col xs={12}>
             <h3>Recomendado</h3>
           </Col>
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <ItemCard
               image={"flautas.jpeg"}
               details={"Es una prueba"}
               titulo={"Flautas"}
             />
           </Col>
-          <Col xs={6} md={6}>
+          <Col xs={12} md={6}>
             <ItemCard
               image={"tacos.jpeg"}
               details={"Es una prueba"}
