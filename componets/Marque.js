@@ -3,11 +3,14 @@ import ItemCard from "./ItemCard";
 
 const Marque = () => {
   return (
-    <Marquee>
-      <ItemCard image={'flautas.jpeg'} details={'rico rico'} />
-      <ItemCard image={'pozole.jpeg'} details={'rico rico'}/>
-      <ItemCard image={'tacos.jpeg'} details={'rico rico'}/>
-      <ItemCard image={'Tamales.jpeg'} details={'rico rico'}/>
+    <Marquee gradient={false}>
+      <ItemCard image={"flautas.jpeg"} />
+      <ItemCard image={"pozole.jpeg"} />
+      <ItemCard image={"tacos.jpeg"} />
+      <ItemCard image={"Tamales.jpeg"} /> 
+      <ItemCard image={"zope.jpeg"} />
+      <ItemCard image={"chileNahogada.jpeg"} />
+
     </Marquee>
   );
 };

@@ -13,12 +13,12 @@ const NavBar = () => {
       <Navbar.Brand className="ml-lg-5">
         <Link href="/">
           <a
-            className="nav-link"
+            className="nav-link pl-4"
             href="#home"
             //onClick={hola}
             style={{ outline: "0" }}
           >
-            <img style={{ height: "2em" }} src={"/logo.png"} />
+            <img style={{ height: "3em", width:"5em" }} src={"/logo.png"} />
           </a>
         </Link>
       </Navbar.Brand>
@@ -29,19 +29,19 @@ const NavBar = () => {
             <li className="nav-item">
               <Link href="/">
                 <a
-                  className="nav-link"
+                  className="nav-link p-3"
                   href="#home"
                   //		onClick={hola}
                   style={{ outline: "0" }}
                 >
-                  Inicio
+                     Inicio
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/Store">
                 <a
-                  className="nav-link "
+                  className="nav-link p-3 "
                   href="#"
                   //onClick={hola}
                   style={{ outline: "0" }}

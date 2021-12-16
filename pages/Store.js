@@ -1,28 +1,38 @@
 import NavBar from "./../componets/NavBar";
 import ItemCard from "../componets/ItemCard";
 import { Container, Row, Col } from "react-bootstrap-v5";
-import styles from '../styles/Store.module.css'
-import Marquee from "../componets/Marque";
-
+import styles from "../styles/Store.module.css";
+import Marque from "../componets/Marque";
 
 const Store = () => {
   return (
     <>
       <NavBar />
-      <Container className={styles.container} >
-        <Marquee/>
+      <div className={styles.container}>
         <Row className="justify-content-md-center">
-          <Col xs={6} md={6} lg={4}>
-            <ItemCard image={"flautas.jpeg"} details={"rico rico"} />
+          <Col xs={12}>
+            <h3>Promociones</h3>
+            <Marque />
           </Col>
-          <Col xs={6} md={6} lg={4}>
-            <ItemCard image={"molePollo.jpeg"} details={"rico rico"} />
+          <Col xs={12}>
+            <h3>Recomendado</h3>
           </Col>
-          <Col xs={6} md={6} lg={4}>
-            <ItemCard image={"pozole.jpeg"} details={"rico rico"} />
+          <Col xs={6} md={6}>
+            <ItemCard
+              image={"flautas.jpeg"}
+              details={"Es una prueba"}
+              titulo={"Flautas"}
+            />
+          </Col>
+          <Col xs={6} md={6}>
+            <ItemCard
+              image={"tacos.jpeg"}
+              details={"Es una prueba"}
+              titulo={"Tacos"}
+            />
           </Col>
         </Row>
-      </Container>
+      </div>
     </>
   );
 };
