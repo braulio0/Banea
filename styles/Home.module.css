@@ -13,6 +13,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #fafafa;
+  box-shadow: 2em 2em;
 }
 
 .footer a {
