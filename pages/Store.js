@@ -1,8 +1,8 @@
-import NavBar from "./../componets/NavBar";
-import ItemCard from "../componets/ItemCard";
+import NavBar from "../Componets/NavBar";
+import ItemCard from "../Componets/ItemCard";
 import { Container, Row, Col } from "react-bootstrap-v5";
 import styles from "../styles/Store.module.css";
-import Marque from "../componets/Marque";
+import Marque from "../Componets/Marque";
 
 const Store = () => {
   return (
@@ -10,14 +10,14 @@ const Store = () => {
       <NavBar />
       <div className={styles.container}>
         <Row className="d-flex justify-content-center">
-          <Col xs={12} className="p-3">
+          <Col xs={12} className="p-3 shadow mb-3 bg-white roundede">
             <h3>Promociones</h3>
           </Col>
-          <Col xs={12}>
+          <Col xs={12} className="p-3 mb-3">
             <Marque />
           </Col>
-          <Col xs={12} className="p-3">
-            <h4>Recomendado</h4>
+          <Col xs={12} className="p-3 shadow mb-3 bg-white roundede">
+            <h3>Recomendado</h3>
           </Col>
           <Col xs={12} md={4}>
             <ItemCard

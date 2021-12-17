@@ -8,7 +8,7 @@ const ItemCard = ({ image, details, titulo }) => {
     />
   ) : (
     <Row className="d-flex justify-content-center py-2">
-      <Card style={{ width: "18rem" }} className="align-items-center">
+      <Card style={{ width: "18rem" }} className="align-items-center shadow mb-3 bg-white roundede">
         <Card.Img
           src={image}
           style={{ width: "18rem", height: "256px", "object-fit": "cover" }}
