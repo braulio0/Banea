@@ -12,13 +12,8 @@ const NavBar = () => {
     >
       <Navbar.Brand className="ml-lg-5">
         <Link href="/">
-          <a
-            className="nav-link pl-4"
-            href="#home"
-            //onClick={hola}
-            style={{ outline: "0" }}
-          >
-            <img style={{ height: "3em", width:"5em" }} src={"/logo.png"} />
+          <a className="nav-link pl-4" style={{ outline: "0" }}>
+            <img style={{ height: "3em", width: "5em" }} src={"/logo.png"} />
           </a>
         </Link>
       </Navbar.Brand>
@@ -28,13 +23,8 @@ const NavBar = () => {
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0 align-items-lg-center">
             <li className="nav-item">
               <Link href="/">
-                <a
-                  className="nav-link p-3"
-                  href="#home"
-                  //		onClick={hola}
-                  style={{ outline: "0" }}
-                >
-                     Inicio
+                <a className="nav-link p-3" style={{ outline: "0", fontSize:"1.2em" }}>
+                  Inicio
                 </a>
               </Link>
             </li>
@@ -42,9 +32,8 @@ const NavBar = () => {
               <Link href="/Store">
                 <a
                   className="nav-link p-3 "
-                  href="#"
-                  //onClick={hola}
-                  style={{ outline: "0" }}
+        
+                  style={{ outline: "0",fontSize:"1.2em" }}
                 >
                   Compra
                 </a>
