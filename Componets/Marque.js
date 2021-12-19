@@ -10,7 +10,6 @@ const Marque = () => {
       <ItemCard image={"promo4.jpeg"} /> 
       <ItemCard image={"promo5.jpeg"} />
       <ItemCard image={"promo6.jpeg"} />
-
     </Marquee>
   );
 };

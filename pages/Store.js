@@ -51,7 +51,7 @@ const Store = () => {
             <ItemCard
               image={"pozole.jpeg"}
               details={"Es una prueba"}
-              titulo={"Posolazo"}
+              titulo={"Pozole"}
             />
           </Col>
           <Col xs={12} md={4} lg={3}>
@@ -100,7 +100,7 @@ const Store = () => {
             <ItemCard
               image={"pozole.jpeg"}
               details={"Es una prueba"}
-              titulo={"Posolazo"}
+              titulo={"Pozole"}
             />
           </Col>
           <Col xs={12} md={4} lg={3}>
@@ -149,7 +149,7 @@ const Store = () => {
             <ItemCard
               image={"pozole.jpeg"}
               details={"Es una prueba"}
-              titulo={"Posolazo"}
+              titulo={"Pozole"}
             />
           </Col>
           <Col xs={12} md={4} lg={3}>
